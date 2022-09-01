@@ -16,6 +16,7 @@ dont use as -2+5 if you want to do substraction start with positive number as 5-
 //linux
 To run on linux you should use terminal do not run it by double clicking it needs terminal.
 to run in terminal wright ./a.out on the directory that the a.out file is found.
+It will ask for 2 input. First one for spacing between each integer, second one the function itself.
 
 //windows
 it does not support windows yet but if you compile it yourself it might.
