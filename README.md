@@ -1,10 +1,10 @@
 # graph-drawer
 give a function and watch the magic.(it is just a calculator written in c++)
 
-//what it does
+//what it does:
 it draws a graph for the function given, use basic math, as example: x+2*x4/5-6;
 
-//rules and usage
+//rules and usage:
 '*' for multiplication
 '/' for division
 '+' for addition
@@ -14,24 +14,24 @@ Don't use the number 120 as it will be read as the variable x, use workarounds i
 dont use as -2+5 if you want to do substraction start with positive number as 5-2.
 always end functions with ';'
 
-//linux
+//linux:
 To run on linux you should use terminal do not run it by double clicking it needs terminal.
 to run in terminal wright ./a.out on the directory that the a.out file is found.
 It will ask for 2 inputs. First one for spacing between each integer, second one the function itself.
 
-//windows
+//windows:
 it does not support windows yet but if you compile it yourself it might.
 
-//what are the plans for forward
+//what are the plans for forward:
 * windows support
 * file input support
 * settings
 * more functionality towards being a graphic calculator while also being lightweight
  
-//files
+//files:
 main.cpp is main file and functions.h and functions.cpp has the structs and functions.
 
-//libraries
+//libraries:
 SDL2
 fstream
 string
