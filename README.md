@@ -27,6 +27,7 @@ it does not support windows yet but if you compile it yourself it might.
 * file input support
 * settings
 * more functionality towards being a graphic calculator while also being lightweight
+* higher resolution support
  
 //files:
 main.cpp is main file and functions.h and functions.cpp has the structs and functions.
