@@ -8,9 +8,9 @@ it draws a graph for the function given, use basic math, as example: x+2*x4/5-6;
 '*' for multiplication,
 '/' for division,
 '+' for addition,
-'-' for substraction.
+'-' for substraction,
+'^' for exponention.
 Only use x as a variable cause this a function defined as f(x).
-Don't use the number 120 as it will be read as the variable x, use workarounds if you want to do so.
 Don't use as -2+5 if you want to do substraction start with positive number as 5-2.
 Always end functions with ';'
 
