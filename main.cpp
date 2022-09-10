@@ -73,7 +73,7 @@ int main()
 	for(int i=0;i<=fonk.length();i++){
 		if(fonk[i]==94||fonk[i]==42||fonk[i]==43||fonk[i]==45||fonk[i]==47||fonk[i]==59){
 			if(tmps[0]==120){
-			arrofnum[arrpos]=120;
+			arrofnum[arrpos]=-1;
 			}else{
 			arrofnum[arrpos]=stof(tmps);
 			}
@@ -133,55 +133,55 @@ int main()
 		for(int k=0;k<count;k++){
 			switch(veccopy[k].y){
 				case 94:
-				if(arrofnumcopy[veccopy[k].x]==120&&arrofnumcopy[veccopy[k].x+1]==120){
+				if(arrofnumcopy[veccopy[k].x]==-1&&arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=f2(x,x);
-				}else if(arrofnumcopy[veccopy[k].x]==120){
+				}else if(arrofnumcopy[veccopy[k].x]==-1){
 				arrofnumcopy[veccopy[k].x]=f2(x,arrofnumcopy[veccopy[k].x+1]);
-				}else if(arrofnumcopy[veccopy[k].x+1]==120){
+				}else if(arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=f2(arrofnumcopy[veccopy[k].x],x);
 				}else{
 				arrofnumcopy[veccopy[k].x]=f2(arrofnumcopy[veccopy[k].x],arrofnumcopy[veccopy[k].x+1]);
 				}
 				break;
 				case 42:
-				if(arrofnumcopy[veccopy[k].x]==120&&arrofnumcopy[veccopy[k].x+1]==120){
+				if(arrofnumcopy[veccopy[k].x]==-1&&arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fm(x,x);
-				}else if(arrofnumcopy[veccopy[k].x]==120){
+				}else if(arrofnumcopy[veccopy[k].x]==-1){
 				arrofnumcopy[veccopy[k].x]=fm(x,arrofnumcopy[veccopy[k].x+1]);
-				}else if(arrofnumcopy[veccopy[k].x+1]==120){
+				}else if(arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fm(arrofnumcopy[veccopy[k].x],x);
 				}else{
 				arrofnumcopy[veccopy[k].x]=fm(arrofnumcopy[veccopy[k].x],arrofnumcopy[veccopy[k].x+1]);
 				}
 				break;
 				case 43:
-				if(arrofnumcopy[veccopy[k].x]==120&&arrofnumcopy[veccopy[k].x+1]==120){
+				if(arrofnumcopy[veccopy[k].x]==-1&&arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fp(x,x);
-				}else if(arrofnumcopy[veccopy[k].x]==120){
+				}else if(arrofnumcopy[veccopy[k].x]==-1){
 				arrofnumcopy[veccopy[k].x]=fp(x,arrofnumcopy[veccopy[k].x+1]);
-				}else if(arrofnumcopy[veccopy[k].x+1]==120){
+				}else if(arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fp(arrofnumcopy[veccopy[k].x],x);
 				}else{
 				arrofnumcopy[veccopy[k].x]=fp(arrofnumcopy[veccopy[k].x],arrofnumcopy[veccopy[k].x+1]);
 				}
 				break;
 				case 45:
-				if(arrofnumcopy[veccopy[k].x]==120&&arrofnumcopy[veccopy[k].x+1]==120){
+				if(arrofnumcopy[veccopy[k].x]==-1&&arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fs(x,x);
-				}else if(arrofnumcopy[veccopy[k].x]==120){
+				}else if(arrofnumcopy[veccopy[k].x]==-1){
 				arrofnumcopy[veccopy[k].x]=fs(x,arrofnumcopy[veccopy[k].x+1]);
-				}else if(arrofnumcopy[veccopy[k].x+1]==120){
+				}else if(arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fs(arrofnumcopy[veccopy[k].x],x);
 				}else{
 				arrofnumcopy[veccopy[k].x]=fs(arrofnumcopy[veccopy[k].x],arrofnumcopy[veccopy[k].x+1]);
 				}
 				break;
 				case 47:
-				if(arrofnumcopy[veccopy[k].x]==120&&arrofnumcopy[veccopy[k].x+1]==120){
+				if(arrofnumcopy[veccopy[k].x]==-1&&arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fd(x,x);
-				}else if(arrofnumcopy[veccopy[k].x]==120){
+				}else if(arrofnumcopy[veccopy[k].x]==-1){
 				arrofnumcopy[veccopy[k].x]=fd(x,arrofnumcopy[veccopy[k].x+1]);
-				}else if(arrofnumcopy[veccopy[k].x+1]==120){
+				}else if(arrofnumcopy[veccopy[k].x+1]==-1){
 				arrofnumcopy[veccopy[k].x]=fd(arrofnumcopy[veccopy[k].x],x);
 				}else{
 				arrofnumcopy[veccopy[k].x]=fd(arrofnumcopy[veccopy[k].x],arrofnumcopy[veccopy[k].x+1]);
