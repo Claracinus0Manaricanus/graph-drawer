@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 
+//function of drawing grid
 void grid(SDL_Renderer *ren,int aralik){
 		SDL_SetRenderDrawColor(ren,0,0,0,100);
 		for(int i=-400;i<=400;i++){
@@ -26,7 +27,7 @@ void grid(SDL_Renderer *ren,int aralik){
 		}
 }
 
-//işlemler
+//processes
 float fm(float x,float y){
 return x*y;
 }
@@ -39,6 +40,22 @@ return x/y;
 float fs(float x,float y){
 return x-y;
 }
-float f2(float x){
-return x*x;
+float f2(float x,float y){
+	if(y==1){
+		return x;
+	}
+	y--;
+	return x*f2(x,y);
 }
+
+//clearing screen
+void clearscreen(SDL_Renderer *ren, int aralik, bool gridb){
+	SDL_SetRenderDrawColor(ren,255,255,255,255);//white
+	SDL_RenderClear(ren);//painting whole screen white
+	if(grid){
+	grid(ren,aralik);//calling grid function
+	}
+	SDL_SetRenderDrawColor(ren,0,0,255,255);//blue
+}
+
+//foreach loop

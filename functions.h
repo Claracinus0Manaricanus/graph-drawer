@@ -14,6 +14,12 @@ float fm(float x,float y);
 float fp(float x,float y);
 float fs(float x,float y);
 float fd(float x,float y);
-float f2(float x);
+float f2(float x,float y);
+
+void clearscreen(SDL_Renderer *ren, int aralik, bool grid);
 
 #endif
+
+//to do:
+//functionise more of main file(especially ones copying buffers)
+//add for each loops and arrays for processing of integer ids
